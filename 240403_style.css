@@ -1,0 +1,45 @@
+
+div {
+  border: 5px solid gray;
+}
+
+div{
+    border: 10px pink solid;
+}
+
+h1 , a {   /* 중복 제거2 */
+    /* 한줄 표기 */
+  
+      /* 중복 제거3 */
+    border: red 5px solid;
+     /* 패딩, 여백.  */
+     /* padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px; */
+  
+     /* 위, 아래, 왼, 오 */
+     /* padding: 30px 20px; */
+  
+     padding: 10px 20px 30px 40px;
+     margin: 40px;
+  
+  
+    /* border-width: 5px;
+    border-color: red;
+    border-style: solid; */
+    /* display: inline; */
+  }
+  /* 중복제거 1
+  a {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+     display: inline; 
+  }
+  */
+
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
